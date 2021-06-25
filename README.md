@@ -9,6 +9,11 @@ Reiki Light Space is a website for reiki and hypnotherapy services. This was a v
 ### Live Website:
 https://www.reikilightspace.co.uk/
 
+## Key Features
+
+- Wordpress theme
+- Responsive design
+
 ## Technologies Used
 
 PHP, Wordpress, SASS, HTML5.
