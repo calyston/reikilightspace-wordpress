@@ -1,0 +1,31 @@
+//About Page
+
+.about-page {
+  display: flex;
+  flex-direction: column;
+  text-align: justify;
+  align-items: center;
+  padding: $main-spacing 5%;
+
+  figure {
+    text-align: center;
+  }
+
+  img {
+    width: 30rem;
+    height: auto;
+    padding: $main-spacing * 2;
+  }
+}
+
+//Tablet & Desktop View
+
+@media screen and (min-width: 600px) {
+  .about-page {
+    padding: $main-spacing 10%;
+
+    img {
+      width: 50rem;
+    }
+  }
+}

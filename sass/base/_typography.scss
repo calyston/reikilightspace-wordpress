@@ -1,0 +1,37 @@
+//Typography
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,700;1,300;1,700&family=Playfair+Display&display=swap');
+
+html {
+  font-size: 62.5%;
+}
+
+h1, h2, h3, h4 {
+  font-family: $heading-font;
+  text-transform: uppercase;
+  margin: $main-spacing *2;
+  cursor: default;
+}
+
+h1 {
+  font-size: 4rem;
+}
+
+h2 {
+  font-size: 3.2rem;
+}
+
+h3 {
+  font-size: 2.4rem;
+}
+
+h4 {
+  font-size: 1.6rem;
+}
+
+p, li, span, button, label {
+  font-family: $body-font;
+  font-size: 1.6rem;
+  margin: $main-spacing;
+  cursor: default;
+}

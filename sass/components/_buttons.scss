@@ -1,0 +1,31 @@
+//Logo
+
+#logo {
+  width: 20rem;
+  padding-bottom: $main-spacing;
+}
+
+//Buttons
+
+.main-button {
+  background-color: $green;
+  color: white;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: $main-spacing ($main-spacing * 2);
+  border: none;
+  border-radius: 1rem;
+  transition: $main-transition;
+  cursor: pointer;
+}
+
+.main-button:hover {
+  background-color: $dark-green;
+  // color: $dark-green;
+}
+
+@media screen and (min-width: 600px) {
+  #logo {
+    padding-bottom: 0;
+  }
+}

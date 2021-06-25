@@ -1,0 +1,60 @@
+//Navigation
+
+nav {
+  background-color: $green;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: $main-spacing 5%;
+  padding-bottom: 0;
+  position: fixed;
+  width: 90%;
+
+  ul {
+    display: flex;
+    flex-direction: row;
+  }
+
+  li {
+    font-family: $heading-font;
+    text-transform: uppercase;
+    margin: 0.5rem;
+  }
+  
+  a {
+    color: white;
+    text-decoration: none;
+    transition: $main-transition;
+    cursor: pointer;
+  }
+
+  a:hover {
+    color: $dark-green;
+  }
+}
+
+// Tablet & Desktop View
+@media screen and (min-width: 500px) {
+  nav {
+    li {
+      margin: 1rem;
+    }
+  }
+}
+
+@media screen and (min-width: 600px) {
+  nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: $main-spacing;
+    
+    li {
+      padding: 0 $main-spacing;
+      margin: $main-spacing;
+    }
+  }
+}

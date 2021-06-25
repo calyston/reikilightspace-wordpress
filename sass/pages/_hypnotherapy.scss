@@ -1,0 +1,39 @@
+//Hypnotherapy Page
+
+.hypnotherapy-page {
+  padding: $main-spacing 5%;
+
+  p, ul {
+    text-align: justify;
+  }
+
+  img {
+    width: 30rem;
+    height: auto;
+    padding: $main-spacing * 2;
+  }
+}
+
+.hypnotherapy-text ul {
+  list-style-type: disc;
+  padding-left: $main-spacing;
+  padding-bottom: $main-spacing;
+}
+
+.hypnotherapy-img {
+  width: 30rem;
+  height: auto;
+  padding: $main-spacing * 2;
+}
+
+//Tablet & Desktop View
+
+@media screen and (min-width: 600px) {
+  .hypnotherapy-page {
+    padding: $main-spacing 10%;
+
+    img {
+      width: 40rem;
+    }
+  }
+}

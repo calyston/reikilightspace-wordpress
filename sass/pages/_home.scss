@@ -1,0 +1,149 @@
+//Homepage
+
+main {
+  text-align: center;
+  background-color: whitesmoke;
+}
+
+.home-text {
+  width: 75%;
+  margin: $main-spacing auto;
+}
+//Hero Banner
+
+.hero {
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url("/assets/pictures/reiki-light.jpg");
+    height: 90vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-text {
+  text-align: center;
+  position: absolute;
+  color: white;
+}
+
+//Welcome
+.home-welcome {
+  padding: $main-spacing 5%;
+  
+  p {
+    text-align: justify;
+  }
+}
+
+//Services
+
+.home-services {
+  background-color: whitesmoke;
+  padding: $main-spacing 5%;
+}
+
+.services {
+  // display: flex;
+  // flex-direction: column;
+  // align-items: center;
+  display: grid;
+  // margin: ($main-spacing * 2) 0;
+  grid-template-columns: repeat(auto-fit, 30rem);
+  grid-template-rows: auto;
+  gap: $main-spacing * 2;
+  justify-content: space-around;
+}
+
+.info-box {
+  padding: $main-spacing;
+  margin: $main-spacing 0;
+  box-shadow: 0px 3px 3px $green;
+  
+  img {
+    width: 100%; 
+    height: 12rem;
+  }
+}
+
+//Benefits
+
+.home-benefits {
+  padding: $main-spacing 5%;
+
+  p {
+    text-align: justify;
+  }
+}
+//Testimonial
+
+.home-testimonials {
+  background-color: whitesmoke;
+  padding: $main-spacing 5%;
+
+  p {
+    text-align: justify;
+  }
+}
+
+.testimonial-box {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.testimonial {
+  font-style: italic;
+  margin: 0;
+
+  p {
+    font-style: italic;
+    margin: 0;
+  }
+}
+
+.fa-quote-left, .fa-quote-right {
+  color: $green;
+}
+
+.fa-quote-right {
+  align-self: end;
+}
+
+hr {
+  width: 15rem;
+  color: $green;
+}
+
+//Tablet & Desktop View
+
+@media screen and (min-width: 600px) {
+
+  .home-welcome {
+    padding: $main-spacing 10%;
+  }
+
+  .home-services {
+    padding: $main-spacing 10%;
+  }
+
+  .home-benefits {
+    padding: $main-spacing 10%;
+  }
+
+  .home-testimonials {
+    padding: $main-spacing 10%;
+  }
+
+  .testimonial {
+    font-style: italic;
+    margin: $main-spacing;
+
+    p {
+      font-style: italic;
+      // margin: $main-spacing;
+    }
+  }
+}

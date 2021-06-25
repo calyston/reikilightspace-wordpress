@@ -1,0 +1,14 @@
+//Header
+
+header {
+  height: 10vh;
+  background-color: whitesmoke;
+}
+
+//Tablet & Desktop View
+
+@media screen and (min-width: 1080px) {
+  header {
+    height: 15vh;
+  }
+}

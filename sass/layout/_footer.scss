@@ -1,0 +1,74 @@
+//Footer
+
+footer {
+  background-color: $dark-green;
+  color: white;
+  padding: $main-spacing 5%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  
+  a {
+    color: white;
+    text-decoration: none;
+    transition: $main-transition;
+    cursor: pointer;
+  }
+
+  a:hover {
+    color: $green;
+  }
+}
+
+.footer-text {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.link-tree {
+  margin: $main-spacing;
+  li {
+    text-transform: uppercase;
+    margin: 0;
+    padding: $main-spacing / 2;
+  }
+}
+
+.address {
+  margin: $main-spacing 0;
+
+  p {
+    padding: $main-spacing / 2;
+    margin: 0;
+  }
+}
+
+.fas {
+  margin-right: $main-spacing / 2;
+}
+
+.sns {
+  display: flex;
+  flex-direction: row;
+}
+
+// Tablet & Desktop View
+
+@media screen and (min-width: 600px) {
+  .footer-text {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    text-align: left;
+  }
+
+  .link-tree {
+    padding: 0;
+  }
+}
