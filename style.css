@@ -142,15 +142,9 @@ nav a:hover {
   }
 }
 header {
-  height: 10vh;
   background-color: whitesmoke;
 }
 
-@media screen and (min-width: 1080px) {
-  header {
-    height: 15vh;
-  }
-}
 footer {
   background-color: #2D3819;
   color: white;
@@ -256,7 +250,7 @@ main {
 
 .hero {
   background-image: url("http://localhost/wordpress/wp-content/uploads/2021/06/reiki-light.jpg");
-  height: 90vh;
+  height: 100vh;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
