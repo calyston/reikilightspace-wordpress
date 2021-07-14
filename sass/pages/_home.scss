@@ -29,7 +29,9 @@ main {
   position: absolute;
   color: white;
 }
-//Welcome
+
+//Welcome Section
+
 .home-welcome {
   padding: $main-spacing 5%;
   
@@ -38,7 +40,7 @@ main {
   }
 }
 
-//Services
+//Services Section
 
 .home-services {
   background-color: whitesmoke;
@@ -68,7 +70,7 @@ main {
   }
 }
 
-//Benefits
+//Benefits Section
 
 .home-benefits {
   padding: $main-spacing 5%;
@@ -78,7 +80,7 @@ main {
   }
 }
 
-//Testimonial
+//Testimonial Section
 
 .home-testimonials {
   background-color: whitesmoke;
