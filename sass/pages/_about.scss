@@ -18,6 +18,19 @@
   }
 }
 
+.about-page, .hypnotherapy-page, .reiki-page {
+  a {
+    color: $green;
+    text-decoration: none;
+    transition: $main-transition;
+    cursor: pointer;
+  }
+
+  a:hover {
+    color: $dark-green;
+  }
+}
+
 //Tablet & Desktop View
 
 @media screen and (min-width: 600px) {

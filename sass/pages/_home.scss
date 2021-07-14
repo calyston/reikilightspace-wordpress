@@ -9,18 +9,19 @@ main {
   width: 75%;
   margin: $main-spacing auto;
 }
+
 //Hero Banner
 
 .hero {
-    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url("/assets/pictures/reiki-light.jpg");
-    height: 90vh;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  background-image: url("http://localhost/wordpress/wp-content/uploads/2021/06/reiki-light.jpg");
+  height: 90vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .hero-text {
@@ -28,7 +29,6 @@ main {
   position: absolute;
   color: white;
 }
-
 //Welcome
 .home-welcome {
   padding: $main-spacing 5%;
@@ -46,11 +46,7 @@ main {
 }
 
 .services {
-  // display: flex;
-  // flex-direction: column;
-  // align-items: center;
   display: grid;
-  // margin: ($main-spacing * 2) 0;
   grid-template-columns: repeat(auto-fit, 30rem);
   grid-template-rows: auto;
   gap: $main-spacing * 2;
@@ -58,6 +54,10 @@ main {
 }
 
 .info-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
   padding: $main-spacing;
   margin: $main-spacing 0;
   box-shadow: 0px 3px 3px $green;
@@ -77,6 +77,7 @@ main {
     text-align: justify;
   }
 }
+
 //Testimonial
 
 .home-testimonials {
@@ -143,7 +144,6 @@ hr {
 
     p {
       font-style: italic;
-      // margin: $main-spacing;
     }
   }
 }
