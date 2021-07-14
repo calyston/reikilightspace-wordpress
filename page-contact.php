@@ -10,7 +10,7 @@ get_header(); ?>
 		<?php while ( have_posts() ) : the_post(); ?>
 		
   <section class="contact-page">
-    <h2><?php the_title(); ?></h2>
+    <h2 class="page-title"><?php the_title(); ?></h2>
     <div class="contact-p"><?php the_content(); ?></div>
     <section class="contact-content">
       <div class="contact-form">

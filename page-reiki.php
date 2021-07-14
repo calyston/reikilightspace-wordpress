@@ -10,7 +10,7 @@ get_header(); ?>
 		<?php while ( have_posts() ) : the_post(); ?>
 		
     <section class="reiki-page">
-      <h2><?php the_title(); ?></h2>
+      <h2 class="page-title"><?php the_title(); ?></h2>
 			<!-- <img class="reiki-img" src=<?php the_post_thumbnail(); ?>> -->
       <div class="reiki-text"><?php the_content(); ?></div>
 			

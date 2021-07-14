@@ -10,7 +10,7 @@ get_header(); ?>
 		<?php while ( have_posts() ) : the_post(); ?>
 		
     <section class="about-page">
-      <h2><?php the_title(); ?></h2>
+      <h2 class="page-title"><?php the_title(); ?></h2>
       <div class="about-text"><?php the_content(); ?></div>
 			<button class="main-button">Book an Appointment</button>
     </section>

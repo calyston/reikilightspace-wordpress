@@ -1,10 +1,11 @@
 //Reiki Page
 
 .reiki-page {
-  padding: $main-spacing 5%;
+  padding: $main-spacing 0;
 
   p, ul {
     text-align: justify;
+    padding: 0 5%;
   }
 
   img {
