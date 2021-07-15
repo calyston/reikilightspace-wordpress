@@ -47,6 +47,12 @@ nav {
 
 @media screen and (min-width: 600px) {
   nav {
+    padding-bottom: $main-spacing;
+  }
+}
+
+@media screen and (min-width: 780px) {
+  nav {
     display: flex;
     flex-direction: row;
     justify-content: space-between;

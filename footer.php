@@ -19,7 +19,8 @@
       </div>
     </section>
     <p>Privacy Policy | Terms and Conditions</p>
-    <p>&copy; Copyright 2021 | All Rights Reserved</p>
+    <p>&copy; 2021 Reiki Light Space | All Rights Reserved | Created by <a href="https://christinelyston.co.uk/" target="blank">Christine Lyston</a></p>
+    <!-- <p>Created by <a href="https://christinelyston.co.uk/" target="blank">Christine Lyston</a></p> -->
   </footer>
 
 <?php wp_footer(); ?>
