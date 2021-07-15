@@ -42,8 +42,12 @@
   .about-page {
     padding: $main-spacing 10%;
 
+    p, ul {
+      padding: 0;
+    }
+
     img {
-      width: 50rem;
+      width: 40rem;
     }
   }
 }

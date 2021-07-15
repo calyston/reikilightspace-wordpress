@@ -128,11 +128,6 @@ nav a:hover {
     margin: 1rem;
   }
 }
-@media screen and (min-width: 600px) {
-  nav {
-    padding-bottom: 1.5rem;
-  }
-}
 @media screen and (min-width: 780px) {
   nav {
     display: flex;
@@ -234,7 +229,7 @@ footer a:hover {
   color: white;
 }
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 780px) {
   #logo {
     padding-bottom: 0;
   }
@@ -414,8 +409,11 @@ hr {
   .about-page {
     padding: 1.5rem 10%;
   }
+  .about-page p, .about-page ul {
+    padding: 0;
+  }
   .about-page img {
-    width: 50rem;
+    width: 40rem;
   }
 }
 @media screen and (min-width: 1080px) {
@@ -567,7 +565,6 @@ iframe {
     padding: 1.5rem 10%;
   }
   .reiki-page p, .reiki-page ul {
-    text-align: justify;
     padding: 0;
   }
   .reiki-page img {
@@ -602,6 +599,9 @@ iframe {
 @media screen and (min-width: 600px) {
   .hypnotherapy-page {
     padding: 1.5rem 10%;
+  }
+  .hypnotherapy-page p, .hypnotherapy-page ul {
+    padding: 0;
   }
   .hypnotherapy-page img {
     width: 40rem;

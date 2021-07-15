@@ -124,7 +124,6 @@ hr {
 //Tablet & Desktop View
 
 @media screen and (min-width: 600px) {
-
   .home-welcome {
     padding: $main-spacing 10%;
   }
@@ -152,14 +151,12 @@ hr {
 }
 
 @media screen and (min-width: 780px) {
-
   .hero {
     height: 80vh;
   }
 }
 
 @media screen and (min-width: 1080px) {
-
   .hero {
     height: 100vh;
   }

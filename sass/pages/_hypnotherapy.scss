@@ -33,6 +33,10 @@
   .hypnotherapy-page {
     padding: $main-spacing 10%;
 
+    p, ul {
+      padding: 0;
+    }
+
     img {
       width: 40rem;
     }

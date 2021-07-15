@@ -27,12 +27,10 @@
 //Tablet & Desktop View
 
 @media screen and (min-width: 600px) {
-
   .reiki-page {
     padding: $main-spacing 10%;
 
     p, ul {
-      text-align: justify;
       padding: 0;
     }
 
@@ -40,8 +38,4 @@
       width: 40rem;
     }
   }
-}
-
-@media screen and (min-width: 1080px) {
-
 }
