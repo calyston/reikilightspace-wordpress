@@ -21,7 +21,7 @@
 }
 
 .pricing p {
-  text-align: center;
+  text-align: center!important;
 }
 
 //Tablet & Desktop View
@@ -30,6 +30,11 @@
 
   .reiki-page {
     padding: $main-spacing 10%;
+
+    p, ul {
+      text-align: justify;
+      padding: 0;
+    }
 
     img {
       width: 40rem;

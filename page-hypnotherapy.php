@@ -12,7 +12,6 @@ get_header(); ?>
     <section class="hypnotherapy-page">
       <h2 class="page-title"><?php the_title(); ?></h2>
       <div class="hypnotherapy-text"><?php the_content(); ?></div>
-      <!-- <img class="hypnotherapy-img" src=<?php the_post_thumbnail(); ?>> -->
 			<button class="main-button">Book an Appointment</button>
     </section>
 		<?php endwhile; ?>

@@ -13,10 +13,11 @@ https://www.reikilightspace.co.uk/
 
 - Wordpress theme
 - Responsive design
+- Mobile menu
 
 ## Technologies Used
 
 PHP, Wordpress, SASS, HTML5.
 
 #### Written by Christine Lyston
-#### Date: June 2021
+#### Date: July 2021

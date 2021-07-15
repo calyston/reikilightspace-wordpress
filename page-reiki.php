@@ -11,7 +11,6 @@ get_header(); ?>
 		
     <section class="reiki-page">
       <h2 class="page-title"><?php the_title(); ?></h2>
-			<!-- <img class="reiki-img" src=<?php the_post_thumbnail(); ?>> -->
       <div class="reiki-text"><?php the_content(); ?></div>
 			
 			<!-- Testimonial -->
@@ -20,7 +19,6 @@ get_header(); ?>
       $post_id = 43;
       $queried_post = get_post($post_id);
       ?>
-      <!-- <h3><?php echo $queried_post->post_title; ?></h3> -->
       <div class="testimonial-box">
         <i class="fas fa-quote-left fa-3x"></i>
         <div class="testimonial"><?php echo $queried_post->post_content; ?></div>
@@ -32,7 +30,6 @@ get_header(); ?>
 			$post_id = 34;
 			$queried_post = get_post($post_id);
 			?>
-			<!-- <h3><?php echo $queried_post->post_title; ?></h3> -->
 			<div class="pricing"><?php echo $queried_post->post_content; ?></div>
 			<button class="main-button">Book an Appointment</button>
 

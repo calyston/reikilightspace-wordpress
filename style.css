@@ -559,12 +559,16 @@ iframe {
 }
 
 .pricing p {
-  text-align: center;
+  text-align: center !important;
 }
 
 @media screen and (min-width: 600px) {
   .reiki-page {
     padding: 1.5rem 10%;
+  }
+  .reiki-page p, .reiki-page ul {
+    text-align: justify;
+    padding: 0;
   }
   .reiki-page img {
     width: 40rem;

@@ -1,9 +1,4 @@
 <?php
-	/*-----------------------------------------------------------------------------------*/
-	/* This file will be referenced every time a template/page loads on your Wordpress site
-	/* This is the place to define custom fxns and specialty code
-	/*-----------------------------------------------------------------------------------*/
-
 // Define the version so we can easily replace it throughout the theme
 define( 'RLS_VERSION', 1.0 );
 
@@ -30,8 +25,6 @@ register_nav_menus(
 		'primary'	=>	__( 'Primary Menu', 'reikilightspace' ),
 		'header-menu' => __( 'Header Menu' ),
     'footer-menu' => __( 'Footer Menu' ),
-		// Copy and paste the line above right here if you want to make another menu, 
-		// just change the 'primary' to another name
 	)
 );
 
