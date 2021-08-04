@@ -12,7 +12,7 @@ get_header(); ?>
     <section class="hypnotherapy-page">
       <h2 class="page-title"><?php the_title(); ?></h2>
       <div class="hypnotherapy-text"><?php the_content(); ?></div>
-			<button class="main-button">Book an Appointment</button>
+			<a href="https://reikilightspace.co.uk/contact/"><button class="main-button">Book an Appointment</button></a>
     </section>
 		<?php endwhile; ?>
 

@@ -52,6 +52,10 @@
   display: flex;
   justify-content: center;
   align-items: flex-start;
+
+  text-area {
+    padding: 1rem;
+  }
 }
 
 .name-form label {

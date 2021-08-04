@@ -23,7 +23,7 @@
   </footer>
 
 <?php wp_footer(); ?>
-  <script src="main.js"></script>
+  <script src="/js/main.js"></script>
   <script src="https://kit.fontawesome.com/74fdfd1d95.js" crossorigin="anonymous"></script>
 </body>
 </html>

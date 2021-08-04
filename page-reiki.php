@@ -31,7 +31,7 @@ get_header(); ?>
 			$queried_post = get_post($post_id);
 			?>
 			<div class="pricing"><?php echo $queried_post->post_content; ?></div>
-			<button class="main-button">Book an Appointment</button>
+			<a href="https://reikilightspace.co.uk/contact/"><button class="main-button">Book an Appointment</button></a>
 
 		</section>
 		<?php endwhile; ?>

@@ -14,7 +14,7 @@ get_header(); ?>
     <div class="contact-p"><?php the_content(); ?></div>
     <section class="contact-content">
       <div class="contact-form">
-        <form>
+        <form name="form" id="form" action="https://formspree.io/f/mbjqzzep" method="POST">
           <div class="name-form">
             <label for="name"><span>*</span>Full Name</label>
             <input id="name" type="text" name="name" placeholder="Full Name" required>
