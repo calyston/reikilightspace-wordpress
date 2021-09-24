@@ -17,7 +17,7 @@ https://www.reikilightspace.co.uk/
 
 ## Technologies Used
 
-![PHP](https://img.shields.io/badge/-PHP-blueviolet) Wordpress, SASS, HTML5.
+![PHP](https://img.shields.io/badge/-PHP-blueviolet) ![Wordpress](https://img.shields.io/badge/-WordPress-informational) ![SASS](https://img.shields.io/badge/-SASS-ff69b4) ![HTML5](https://img.shields.io/badge/-HTML5-orange)
 
 #### Written by Christine Lyston
 #### Date: July 2021
